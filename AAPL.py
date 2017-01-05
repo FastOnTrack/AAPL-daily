@@ -3,12 +3,11 @@ from flask import render_template
 app = Flask(__name__)
 import StringIO
 import base64
-# import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 import urllib2
 import time
 import numpy
 from numpy import exp, cos, linspace
-import bokeh.plotting as plt
 import os, re
 
 @app.route('/')
