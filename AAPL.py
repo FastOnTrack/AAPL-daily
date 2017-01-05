@@ -7,9 +7,7 @@ import matplotlib.pyplot as plt
 import urllib2
 import time
 import numpy
-try:
-    # for Python2
-    from Tkinter import *   ## notice capitalized T in Tkinter 
+from Tkinter import *   ## note capitalized T
 
 @app.route('/')
 def test():
